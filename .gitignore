@@ -24,3 +24,6 @@
 /nbdist/
 /.nb-gradle/
 .vscode/settings.json
+
+
+*.yml
