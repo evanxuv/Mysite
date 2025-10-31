@@ -26,56 +26,6 @@ My Site是由Docker+SpringBoot2.0+Mybatis+thymeleaf等技术实现的个人网�
 
 - [springboot+mybatis+thymeleaf+docker构建的个人站点开源项目（集成了个人主页、个人作品、个人博客](https://blog.csdn.net/winter_chen001/article/details/80266339)
 
-# Quick Start
 
-
-- [x]  [1.如何部署My Site](https://github.com/WinterChenS/my-site/wiki/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2My-Site)
-
-# Preview
-
-**首页：**
-![index](https://github.com/WinterChenS/my-site/assets/15863367/91fc50e0-7c67-497d-b8e1-f96f0baf8000)
-
-**关于页：**
-![about](https://github.com/WinterChenS/my-site/assets/15863367/ec7c04fc-1886-428f-a1e1-30a21196cb38)
-
-**博客首页：**
-![blog](https://github.com/WinterChenS/my-site/assets/15863367/543156b4-2683-427e-9bb9-68b3c3543607)
-
-**登录页：**
-![login](https://github.com/WinterChenS/my-site/assets/15863367/9709512e-5dc0-4f75-8a9d-dd556593d1b4)
-
-**后台首页：**
-![admin_index](https://github.com/WinterChenS/my-site/assets/15863367/2cc02660-2866-41ff-b6c6-580df82379d7)
-
-# 学习群
-欢迎大家加入学习群：681513531  答案：8
-
-# Log
-- 2021-08-20: 修复部分遗留的缓存bug，修复了作品类文章没有点击量的问题
-
-- 2018-07-12: 修复缓存导致更新和删除文章不生效的Bug
-
-- 2018-05-28：增加了EhCache缓存功能
-
-- 2018-05-15：修复主页和博客的列表的样式在手机端显示有偏位的bug
-
-- 2018-05-14：修复评论数不叠加的bug，优化了博客文字排版，添加了博客无图随机添加一张标题图片
-
-- 2018-05-12：重新换了网站的主题
-
-- 2018-05-10：优化了作品页和博客页的header的样式，更加简约和美观
-
-- 2018-05-08：修复了编辑文章的一些bug
-
-- 2018-05-05: 优化了选择文章类型，增加了评论功能
-
-- 2018-05-03: 发布第一版
-
-
-![diagram](https://github.com/user-attachments/assets/1f9a8188-57f9-4e5e-a3ad-0a40acf2e5d7)
-
-
-[![Stargazers over time](https://starchart.cc/WinterChenS/my-site.svg)](https://starchart.cc/WinterChenS/my-site)
 
 
