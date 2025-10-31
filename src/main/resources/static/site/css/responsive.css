@@ -5,16 +5,38 @@
 .comments-reply li section {
 	width: 88%
 }
+.tab-item a {
+	font-size: 17px;
+	padding: 15px 20px;
+}
 }
 
 /* sm */
 
 @media (min-width: 768px) and (max-width: 991px) {
 header[role="header"] {
-	padding: 8% 0;
+	padding: 12px 0;
 }
-header[role="header"] nav ul {
-	padding-top: 10%
+header[role="header"] .container {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+header[role="header"] h1 img {
+	height: 70px !important;
+}
+header[role="header"] .avatar-img {
+	width: 55px !important;
+	height: 55px !important;
+}
+.tabs-nav {
+	margin-left: 10px !important;
+}
+.tab-item a {
+	font-size: 18px;
+	padding: 15px 20px;
 }
 main[role="main-home-wrapper"] article[role="pge-title-content"], main[role="main-inner-wrapper"] article[role="pge-title-content"] {
 	padding-left: 0
@@ -67,22 +89,43 @@ article.contact-header[role="pge-title-content"] p a {
 .comments-reply li section {
 	width: 88%
 }
+.tab-item a {
+	font-size: 16px;
+	padding: 12px 18px;
+}
 }
 
 /* xs */
 
 @media (max-width: 767px) {
 header[role="header"] {
-	padding: 8% 0;
+	padding: 10px 0;
 }
-header[role="header"] nav ul {
-	padding-top: 10%
+header[role="header"] .container {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
 }
-header[role="header"] nav ul > li {
-	font-size: 30px
+header[role="header"] h1 img {
+	height: 60px !important;
 }
-header[role="header"] nav ul > li > a {
-	line-height: 55px
+header[role="header"] .avatar-img {
+	width: 50px !important;
+	height: 50px !important;
+	border-width: 2px !important;
+}
+.tabs-nav {
+	margin-left: 5px !important;
+	justify-content: flex-start !important;
+}
+.tab-item {
+	margin: 0 10px 0 0 !important;
+}
+.tab-item a {
+	font-size: 16px;
+	padding: 12px 15px;
 }
 main[role="main-home-wrapper"] article[role="pge-title-content"], main[role="main-inner-wrapper"] article[role="pge-title-content"] {
 	padding-left: 0
@@ -198,5 +241,9 @@ article.contact-header[role="pge-title-content"] p a {
 .commentys-form textarea {
 	margin-top: 0;
 	margin-bottom: 0
+}
+.section-tabs {
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 }
